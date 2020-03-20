@@ -3,7 +3,7 @@ import org.junit.Test;
 
 public class DemoClassTest {
     @Test
-    public void givenStatesCensusCSVFile_WhenNumberOfRecordsMatches_ShouldReturnTrue() {
+    public void givenTwoIntegers_WhenResultCorrect_ShouldReturnTrue() {
         try {
             int numberOfRecord = DemoClass.add(1, 2);
             Assert.assertEquals(3, numberOfRecord);
