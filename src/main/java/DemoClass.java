@@ -8,5 +8,3 @@ public class DemoClass {
         return num1 + num2;
     }
 }
-    git config --global user.name "Your Name"
-        git config --global user.email "you@example.com"
